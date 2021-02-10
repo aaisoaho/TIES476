@@ -5,7 +5,7 @@ README AVAILABLE ONLY IN FINNISH, contact me if you need help with translating t
 - Tehty *Phaser 3* frameworkilla
 
 
-Toimiva versio löytynee osoitteesta [JYUn users -hakemistostani](http://users.jyu.fi/~aakaneis/TIES476/pong/) ja lähdekoodi löytynee [githubistani](http://github.com).
+Toimiva versio löytynee osoitteesta [JYUn users -hakemistostani](http://users.jyu.fi/~aakaneis/TIES476/pong/) ja lähdekoodi löytynee [githubistani](https://github.com/aaisoaho/TIES476/tree/main/SYKLI1).
 
 -------------
 ## Ajaaksesi omalla koneella koodia
