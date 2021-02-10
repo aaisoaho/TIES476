@@ -12,6 +12,7 @@ Toimiva versio löytynee osoitteesta [JYUn users -hakemistostani](http://users.j
 Jotta voit ajaa omalla koneella koodia, täytyy sinun varmistaa, että sinulta löytyy lokaali web-palvelin asennus. (kts. [Getting Started](http://phaser.io/tutorials/getting-started)) 
 
 Vaihtoehtoisesti voit pelata peliä [selaimellasi](http://users.jyu.fi/~aakaneis/TIES476/pong/index.html).
+
 -------------
 ## Prosessi
 Tässä kuvataan henkilökohtaista oppimisprosessiani itselleni uuden pelimoottorin kanssa.
