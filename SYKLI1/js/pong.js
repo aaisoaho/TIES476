@@ -172,10 +172,12 @@ function hitBat(ball,bat)
 {
     if (velocityX<0) { // pallo liikkuu vasemmalle
         velocityX=velocityX-10; // kiihdytetään liikettä
-        velocityX = velocityX*(-1); // käännetään liike oikealle
+        if (ball.body.touching.left || ball.body.touching.right) // Jos pallo osuu vasemmalla tai oikealla kyljellä, se tarkoittaa että ollaan kimpoamassa.
+            velocityX = velocityX*(-1); // käännetään liike oikealle
     } else { // muutoin liikutaan oikealle
         velocityX=velocityX+10; // kiihdytetään
-        velocityX = velocityX*(-1); // käännetään vasemmalle
+        if (ball.body.touching.left || ball.body.touching.right) // Jos pallo osuu vasemmalla tai oikealla kyljellä, se tarkoittaa että ollaan kimpoamassa.
+            velocityX = velocityX*(-1); // käännetään vasemmalle
     }
     ball.setVelocityX(velocityX); // Päivitetään liikkeen tieto pallolle
     if (velocityY<0) 
