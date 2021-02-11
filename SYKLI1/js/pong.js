@@ -139,7 +139,8 @@ function update ()
     {
         player.setVelocityY(-200);
     } 
-    else if (cursor.down.isDown) {
+    else if (cursor.down.isDown && !player.body.touching.bottom) {
+        // Kunhan pallo ei ole puristumassa mailan alle niin voidaan liikkua.
         player.setVelocityY(200);
     }
     else
@@ -198,8 +199,9 @@ function updateAI()
     if (y_diff < 0) {
         // Pallo on mailan yläpuolella
         aiBat.setVelocityY(-200);
-    } else if (y_diff > 0) {
+    } else if (y_diff > 0 && !aiBat.body.touching.bottom) {
         // Pallo on mailan alapuolella
+        // Kunhan pallo ei ole puristumassa mailan alle niin voidaan liikkua.
         aiBat.setVelocityY(200);
     } else {
         // Pallo on tasan siellä missä tekoälykin
