@@ -29,3 +29,5 @@ Sillä taustallani on web-sovellusten ja web-käyttöliittymien kurssi, muotoili
 |--------|----------|
 | Fonttikoon muuttaminen pisteiden laskua varten | Dokumentaation lukeminen, sitten päätyminen font: "..." -ratkaisuun, kun erikseen laitetut "fontFamily", "fontSize" ym. eivät toimineet. |
 | Pallo liikutti mailaa törmätessään | Mailoille ja verkoille lisätty ```XX.body.immovable = True``` |
+| Pallo pystyi karkaamaan kentän ulkopuolelle puristumalla mailan ja maan väliin | Korjattu googlaamalla "phaser detect where collision" ja sieltä löytämällä ```XX.body.touching.bottom``` ominaisuus. |
+| Pallo kimposi epäintuitiivisesti osuessaan mailaan ylä-/alasuunnasta | Edellisen kohdan jälkeen tajusin, että niin, on olemassa `bodylla` ominaisuudet `touching.left` ja `touching.right`, joiden avulla pystyi tarkastamaan että osutaanko kyljillä, ja jos osutaan niin käännetään suunta silloin ja vain silloin. |
