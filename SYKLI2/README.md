@@ -20,3 +20,12 @@ Tehtävä pisteytetään vastaavasti:
 | Bonus: +1 piste = Ruudunkaappaus projektista iOS-laitteella | EI TOTEUTETA |
 
 ## Prototyypin idea
+Prototyypin tavoitteena on esitellä mahdollista *Puzzle*-elementin toteutusta. Kyseenomainen elementti hyödyntää puhelimissa käytettäviä *landscape* ja *portait* näkymiä. 
+
+Kyseenomaisilla näkymillä on tarkoitus leikitellä siten, että molemmat sisältäisivät erillisen tason/ulottuvuuden. Käytännössä siis *portrait* näkymässä näkyy eri "tasohyppelykenttä" kuin *landscape* näkymässä, ja täten voidaan toteuttaa puzzle-elementti, jossa pelistä on kerralla näkyvissä periaatteessa puolet kentästä. 
+
+Proof of Conceptissa (tästedes tässä dokumentissa viitataan proof of conceptiin vain lyhenteellä PoC) tulisi siis näyttää, että pelissä on mahdollista:
+1. tunnistaa, onko puhelin pystyssä (*portrait*) vai vaakatasossa (*landscape*)
+2. pelin elementtejä voidaan piirtää riippuen siitä, ollaanko pysty- vai vaakatasossa.
+
+Tätä PoC:ta voitaisiin laajentaa myöhemmin toteuttamalla jokin ominaisuus, jolla tunnistaa pelaajan sijainti kummassakin "ulottuvuudessa"/tasossa. Tällainen ankkurointitapa tosin on kyseenomaisen PoCn kannalta vielä epäolennainen.
