@@ -10,14 +10,14 @@ Tehtävä pisteytetään vastaavasti:
 
 ## Meta
 
-| Pisteytys | Suoritus |
-| --- | --- |
-| 1 = Idea/kuvaus mobiilisovellukselle palautettuna kirjallisesti. | - |
-| 2 = Sovelluksessa käytetään jotain mobiilista löytyvää esim gyroskooppi demossa. | - |
-| 3 = Palautettu lähdekoodi | - |
-| 4 = Palautettu APK | - |
-| 5 = Lähdekoodi dokumentoitu fiksusti. | - |
-| Bonus: +1 piste = Ruudunkaappaus projektista iOS-laitteella | EI TOTEUTETA |
+| Pisteytys | Suoritus | Eteneminen |
+| --- | --- | --- |
+| 1 = Idea/kuvaus mobiilisovellukselle palautettuna kirjallisesti. | TOTEUTETTU  | Idea kuvaillaan tämän dokumentin seuraavassa luvussa *Prototyypin idea*. |
+| 2 = Sovelluksessa käytetään jotain mobiilista löytyvää esim gyroskooppi demossa. | TOTEUTETTU | Luvussa *Prototyypin idea* kuvaillaan mobiililaitteiden *landscape* ja *portrait* näkymien hyödyntämistä pelimekaniikan konseptissa |
+| 3 = Palautettu lähdekoodi | TYÖN ALLA | Valitaan sopiva moottori, jolla toteuttaa konsepti alla kuvattu konsepti. |
+| 4 = Palautettu APK | - | - |
+| 5 = Lähdekoodi dokumentoitu fiksusti. | - | - |
+| Bonus: +1 piste = Ruudunkaappaus projektista iOS-laitteella | EI TOTEUTETA | - |
 
 ## Prototyypin idea
 Prototyypin tavoitteena on esitellä mahdollista *Puzzle*-elementin toteutusta. Kyseenomainen elementti hyödyntää puhelimissa käytettäviä *landscape* ja *portait* näkymiä. Tämä konsepti pysyy tässä toteutuksessa vielä konseptitasolla, eikä ota kantaa pelin genrestä tai muista pelikohtaisista ominaisuuksista, kuten peliobjektin pysyvyydestä kummassakin tasossa/näkymässä.
