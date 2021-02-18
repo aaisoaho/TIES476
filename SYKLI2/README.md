@@ -9,7 +9,9 @@ Tehtävä pisteytetään vastaavasti:
 5. Lähdekoodi dokumentoitu fiksusti.
 
 ## Meta
+
 | Pisteytys | Suoritus |
+| --- | --- |
 | 1 = Idea/kuvaus mobiilisovellukselle palautettuna kirjallisesti. | - |
 | 2 = Sovelluksessa käytetään jotain mobiilista löytyvää esim gyroskooppi demossa. | - |
 | 3 = Palautettu lähdekoodi | - |
