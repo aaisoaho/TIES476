@@ -12,3 +12,11 @@ Syklin tehtävänä oli tehdä Pong-klooni jollain ennalta tuntemattomalla pelim
 jossa kerrottiin miten pelimoottori valittiin, miten siihen tutustuttiin ja mihin haasteisiin törmättiin ja miten ne haasteet ratkaistiin.
 
 Itse tein Pong-kloonini Phaser 3 -frameworkilla ja lisäominaisuuksiksi tein painovoiman sekä keskiverkon. 
+### Sykli 2: Mobiilialustat
+Syklin tehtävänä oli suunnitella ja toteuttaa jokin proof of concept, joka hyödynsi mobiilille ominaista ominaisuutta. 
+
+### Sykli 3: HTML5 alustana
+Olin itse tämän syklin velho, joten tätä ei tule löytymään tästä reposta. 
+
+### Sykli 4: Pelitekoäly
+Syklin tehtävänä oli toteuttaa pelitekoäly vuoropohjaiseen peliin. 
