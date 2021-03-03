@@ -45,7 +45,7 @@ Todennäköisesti arvosanan 4.
 | Tekoäly ei jää jumiin seiniin eikä jää pyörimään loputtomia silmukoita pelikentällä (vinkki: jos ei muuta keksi niin random) | Tehty? |
 | Tekoäly osaa lyödä vihollista sellaisen sattuessa eteen. | Tehty |
 | Koodi on kommentoitu selkeästi (mitä ominaisuuksia tekoälylle mikäkin koodin kohta toteuttaa) | Tehty |
-| Kunnollinen raportti palautettu | TYÖNALLA |
+| Kunnollinen raportti palautettu | Tehty |
 
 Lisäpisteiden vaatimukset:
 
