@@ -13,10 +13,10 @@ jossa kerrottiin miten pelimoottori valittiin, miten siihen tutustuttiin ja mihi
 
 Itse tein Pong-kloonini Phaser 3 -frameworkilla ja lisäominaisuuksiksi tein painovoiman sekä keskiverkon. 
 ### Sykli 2: Mobiilialustat
-Syklin tehtävänä oli suunnitella ja toteuttaa jokin proof of concept, joka hyödynsi mobiilille ominaista ominaisuutta. 
+Syklin tehtävänä oli suunnitella ja toteuttaa jokin proof of concept, joka hyödynsi mobiilille ominaista ominaisuutta. Itse päätin perustaa proof of conceptini puhelimen näytön kääntämiseen, jolla voisi tehdä pelistä "moniulotteisen" siten, että pystysuunnassa pelin kenttä/taso olisi eri näköinen kuin vaakasuunnassa.
 
 ### Sykli 3: HTML5 alustana
-Olin itse tämän syklin velho, joten tätä ei tule löytymään tästä reposta. 
+Olin itse tämän syklin velho, joten tätä ei tule löytymään tästä reposta. Tehtäväksi päätimme, että tekijän tulee toteuttaa Phaserilla snake ja siihen itse valitsemiaan lisäominaisuuksia ennalta määrätyltä listalta. Tehtävän purkituksessa huomattiin, että todennäköisesti lisävaatimus "*karkista*" oli liian helppo (lisää peliin joko ääniefektit, *particle emitter* tai kotitekoiset grafiikat), ja että toisaalta skenejen ja valikkojen lisävaatimusta ei oltu ohjeistettu tarpeeksi hyvin.
 
 ### Sykli 4: Pelitekoäly
-Syklin tehtävänä oli toteuttaa pelitekoäly vuoropohjaiseen peliin. 
+Syklin tehtävänä oli toteuttaa pelitekoäly vuoropohjaiseen peliin. Toteutin omani hyödyntämällä tilakoneita (eli if, else if, else -rakenteita). 
