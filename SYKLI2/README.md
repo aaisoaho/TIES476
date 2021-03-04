@@ -14,9 +14,9 @@ Tehtävä pisteytetään vastaavasti:
 | --- | --- | --- |
 | 1 = Idea/kuvaus mobiilisovellukselle palautettuna kirjallisesti. | TOTEUTETTU  | Idea kuvaillaan tämän dokumentin seuraavassa luvussa *Prototyypin idea*. |
 | 2 = Sovelluksessa käytetään jotain mobiilista löytyvää esim gyroskooppi demossa. | TOTEUTETTU | Luvussa *Prototyypin idea* kuvaillaan mobiililaitteiden *landscape* ja *portrait* näkymien hyödyntämistä pelimekaniikan konseptissa |
-| 3 = Palautettu lähdekoodi | TYÖN ALLA | Valitaan sopiva moottori, jolla toteuttaa konsepti alla kuvattu konsepti. |
-| 4 = Palautettu APK | - | - |
-| 5 = Lähdekoodi dokumentoitu fiksusti. | - | - |
+| 3 = Palautettu lähdekoodi | TOTEUTETTU | Lisätty lähdekoodi ZIP-tiedostoon, sillä muutoin kansiot (mm. ```library```) olisi ollut tahattoman iso gittiin. |
+| 4 = Palautettu APK | TOTEUTETTU | Palautettava APK löytyy ```mobile-view-poc.apk``` tiedostosta |
+| 5 = Lähdekoodi dokumentoitu fiksusti. | TOTEUTETTU | Sillä lähdekoodissa ei ole oikeastaan kuin 2 skriptiä, joiden tehtävä on update-loopissa tarkastaa onko puhelin landscape vai portrait ja sitten vaihtaa vastaavaan, niin uskonen yhden rivin kommenttien dokumentoivan tarpeeksi koodin lisäksi proof of conceptia. |
 | Bonus: +1 piste = Ruudunkaappaus projektista iOS-laitteella | EI TOTEUTETA | - |
 
 ## Prototyypin idea
