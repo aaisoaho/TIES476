@@ -20,3 +20,6 @@ Olin itse tämän syklin velho, joten tätä ei tule löytymään tästä repost
 
 ### Sykli 4: Pelitekoäly
 Syklin tehtävänä oli toteuttaa pelitekoäly vuoropohjaiseen peliin. Toteutin omani hyödyntämällä tilakoneita (eli if, else if, else -rakenteita). 
+
+### Sykli 5: Proseduraalinen generointi
+Syklin ohjelmointitehtävän tarkoituksena oli proseduraalisesti generoida kenttä, joka täyttää tietyt ehdot. Toteutin generaattorin hyödyntämällä Diamond Square -algoritmia
