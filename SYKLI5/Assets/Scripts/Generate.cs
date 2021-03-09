@@ -167,7 +167,7 @@ public class Generate : MonoBehaviour {
                     {
                         Vector3 enemy_location = new Vector3(enemy_x, enemy_y, -0.5f);
                         // Let's check if there is a wall between the chosen location and the player location
-                        if (Physics.Raycast(enemy_location, targetPosition - enemy_location))
+                        if (Physics.Raycast(enemy_location, new Vector3(player_x,player_y,-0.5f)- enemy_location,(new Vector3(player_x, player_y, -0.5f) - enemy_location).magnitude))
                         {
                             Instantiate(enemy, enemy_location, Quaternion.identity);
                             addedEnemy = true;
