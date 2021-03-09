@@ -4,6 +4,9 @@ Tehtävänannon löydät [TIMistä](https://tim.jyu.fi/view/kurssit/tie/pelitekn
 
 Pohjana käytetty [tätä](https://github.com/Lumi-Orkidea/GenerointiTehtava), mutta siihen on lisätty [tämä](https://github.com/Vahv1/ai_tehtava/tree/master/Assets/PathFinding) kansio.
 
+## Ajaaksesi
+Lataa tämä kansio (```TIES476/SYKLI5/``` ) ja avaa se käyttäen Unity Hubin ```Add```-painiketta.
+
 ## Suoritus
 
 | Vaatimus | Status | Ratkaisu |
