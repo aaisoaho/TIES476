@@ -37,3 +37,8 @@ Toteutetut ominaisuudet:
   - On löydettävissä reitti pelaajasta lopetuspisteeseen
 - Jos maalia ei voida asettaa, generaattori purkaa luomansa asiat ja käynnistää itsensä uudelleen.
 - Generaattori sijoittaa kentälle N määrän vihollisia, joiden sijainnin ja pelaajan välillä on vähintäänkin yksi seinä.
+
+### Vihollisten spawnaamisen korjaus
+
+Aiemmassa versiossa viholliset pystyivät spawnaamaan pelaajan eteen. Kävi ilmi, että ensinäkin raycastilla castattiin ikuinen säde, joka jatkoi matkaansa minkä kerkesi.
+Tämän lisäksi raycast huomioi KAIKEN kentältä, joten siirtämällä muut kuin viholliset ignore raycast -layerille, pitäisi raycastin nyt tunnistaa vain seinät. 
