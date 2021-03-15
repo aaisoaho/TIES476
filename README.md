@@ -23,3 +23,6 @@ Syklin tehtävänä oli toteuttaa pelitekoäly vuoropohjaiseen peliin. Toteutin 
 
 ### Sykli 5: Proseduraalinen generointi
 Syklin ohjelmointitehtävän tarkoituksena oli proseduraalisesti generoida kenttä, joka täyttää tietyt ehdot. Toteutin generaattorin hyödyntämällä Diamond Square -algoritmia
+
+### Sykli 6: VR/AR
+Syklin tehtävänä on toteuttaa VR- tai AR-sovellus haluamallaan alustalla ja työkalulla. 
