@@ -25,4 +25,4 @@ Syklin tehtävänä oli toteuttaa pelitekoäly vuoropohjaiseen peliin. Toteutin 
 Syklin ohjelmointitehtävän tarkoituksena oli proseduraalisesti generoida kenttä, joka täyttää tietyt ehdot. Toteutin generaattorin hyödyntämällä Diamond Square -algoritmia
 
 ### Sykli 6: VR/AR
-Syklin tehtävänä on toteuttaa VR- tai AR-sovellus haluamallaan alustalla ja työkalulla. 
+Syklin tehtävänä on toteuttaa VR- tai AR-sovellus haluamallaan alustalla ja työkalulla. Toteutin Unitylla ja Vuforia Enginellä konseptiprototyypin, jossa voidaan piirtää laatikko ja puu AR:nä web-kamerakuvaan ja jos nämä ovat tarpeeksi lähellä, muuttuu laatikko puiseksi. Tiedostojen määrän ja koon takia jouduin siirtämään lähdekoodit [GitLabiin](https://gitlab.jyu.fi/aakaneis/ties476_sykli_6_wood_and_box_ar/-/tree/master).
